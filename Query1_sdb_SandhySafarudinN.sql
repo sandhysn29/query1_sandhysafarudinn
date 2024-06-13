@@ -2,7 +2,7 @@ CREATE TABLE buku (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nama VARCHAR(255) NOT NULL,
     tahun VARCHAR(4) NOT NULL,
-    harga DECIMAL(10, 2) NOT NULL,
+    harga FLOAT NOT NULL,
     stok INT NOT NULL,
     deskripsi TEXT
 );
